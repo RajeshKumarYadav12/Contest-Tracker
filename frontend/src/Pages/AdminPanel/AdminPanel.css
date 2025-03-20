@@ -1,0 +1,176 @@
+.admin-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.admin-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.admin-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Platform Buttons */
+.platform-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.platform-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: 2px solid #007bff;
+  background: white;
+  color: #007bff;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.platform-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.platform-btn.active {
+  background: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
+
+/* Form Styling */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+.admin-submit-btn {
+  margin-top: 15px;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.admin-submit-btn:hover {
+  background: #0056b3;
+}
+
+/* ======= DARK MODE ======= */
+.dark .admin-container {
+  background: #1c1c1c;
+  color: white;
+}
+
+.dark .admin-title {
+  color: white;
+}
+
+.dark .admin-subtitle {
+  color: #bbb;
+}
+
+.dark .form-label {
+  color: white;
+}
+
+.dark .form-input {
+  background: #222;
+  color: white;
+  border-color: #444;
+}
+
+.dark .admin-submit-btn {
+  background: #007bff;
+}
+
+.dark .admin-submit-btn:hover {
+  background: #0056b3;
+}
+
+/* to add video link */
+.edit-video-section {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-submit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 11px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: -3px;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 13px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

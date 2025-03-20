@@ -1,0 +1,92 @@
+.contest-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 400px; 
+  height: 380px;
+  margin: 20px auto; 
+  transition: transform 0.2s ease-in-out;
+  gap: 10px;
+}
+
+.contest-card:hover {
+  transform: scale(1.05);
+}
+
+.contest-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.contest-card .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contest-platform {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.contest-date {
+  font-size: 1rem;
+  color: #777;
+}
+
+.contest-status {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contest-status.past {
+  color: red;
+}
+
+.contest-status.live {
+  color: green;
+}
+
+.contest-status.upcoming {
+  color: orange;
+}
+
+.contest-timer {
+  font-size: 1rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.contest-link, .solution-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contest-link {
+  color: blue;
+}
+
+.solution-link {
+  color: darkred;
+}
+.bookmark-btn {
+  background: lightgray;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.bookmark-btn.bookmarked {
+  background: green;
+  color: white;
+}
